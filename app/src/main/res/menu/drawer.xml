@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_1"
+            android:checked="true"
+            android:icon="@drawable/ic_language_white_24dp"
+            android:title="Languages"/>
+        <item
+            android:id="@+id/navigation_item_2"
+            android:icon="@drawable/ic_add_circle_outline_white"
+            android:title="Outline"/>
+        <item
+            android:id="@+id/navigation_item_3"
+            android:icon="@drawable/ic_build_white_24dp"
+            android:title="Tools"/>
+    </group>
+</menu>
